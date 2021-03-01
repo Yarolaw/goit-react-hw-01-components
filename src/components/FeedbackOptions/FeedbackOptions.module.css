@@ -1,0 +1,24 @@
+.button {
+  padding: 10px 10px;
+  min-width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 500;
+  outline: none;
+  transition: box-shadow 200ms linear;
+}
+.button:not(:last-of-type) {
+  margin-right: 6px;
+}
+.button:hover {
+  box-shadow: 0 0 0 2px yellow;
+}
+.button_good:hover {
+  box-shadow: 0 0 0 2px green;
+}
+.button_bad:hover {
+  box-shadow: 0 0 0 2px red;
+}
